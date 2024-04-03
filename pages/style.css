@@ -230,7 +230,7 @@ header .menu-btn{
 }
 
 .About-body{
-    background-image: url('/images/digitization-5140071_1280.jpg');
+    background-image: url('digitization-5140071_1280.jpg');
     object-fit: cover; 
     opacity: 2;
     width: 100%;
@@ -335,7 +335,7 @@ header .menu-btn{
 
 }
 .portfolio{
-    background-image: url('/images/programming-3201149_1280.png');
+    background-image: url('programming-3201149_1280.png');
     object-fit: cover; 
     opacity: 2;
     width: 100%;
