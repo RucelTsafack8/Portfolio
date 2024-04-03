@@ -229,7 +229,7 @@ header .menu-btn{
     width: 100%;
 }
 
-.About-body{
+.About-body, .contact{
     background-image: url('digitization-5140071_1280.jpg');
     object-fit: cover; 
     opacity: 2;
@@ -241,7 +241,7 @@ header .menu-btn{
     background-size: cover; 
 }
 
-.heading{
+.heading, .formulaire{
     width: 90%;
     display: flex;
     flex-direction: column;
@@ -252,7 +252,7 @@ header .menu-btn{
     margin-top: 80px;
 }
 
-.heading h1{
+.heading h1, .formulaire h1{
     font-size: 50px;
     color: mediumvioletred;
     margin-top: 65px;
@@ -260,7 +260,7 @@ header .menu-btn{
     position: relative;
 
 }
-.heading h1::after{
+.heading h1::after, .formulaire h1::after{
     content: "";
     position: absolute;
     width: 100%;
@@ -304,7 +304,7 @@ header .menu-btn{
     display: block;
     transition: 0.5s ease;
 }
-.about-image img:hover{
+.about-image img:hover, .projet1 img:hover{
     transform: scale(1.2);
 }
 .about-main{
@@ -323,9 +323,10 @@ header .menu-btn{
     color: antiquewhite;
 
 }
-.more h1{
+.more h1 cite{
     color: #4bed06;
     text-transform: inherit;
+    font-style: italic;
 }
 .more p{
     color: mediumturquoise;
@@ -391,7 +392,60 @@ header .menu-btn{
     content: "le lien du projet ";
     color: #7063b9;
 }
+.formulaire{
+    width: 50%;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    justify-items: center;
+    /* top: 0;
+    left: 0; */
+    transition: none;
+    
+    height: auto;
+}
+.formulaire form{
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 100%;
+}
 
+.forms input, .forms textarea{
+    width: 80%;
+    height: 50px;
+    text-align: center;
+    color: rgb(0, 0, 15);
+    background: darkslategrey;
+    border: transparent;
+    border-radius: 10px;
+    font-size: 20px;
+    box-shadow: 2px 2px 8px 9px rgb(42, 67, 65);
+    margin: 20px;
+    padding: 10px;
+    margin-top: 30px;
+}
+.forms input:focus, .forms textarea:focus{
+    color: bisque;
+    border: transparent;
+    font-size: 22px;
+    background-color: #333;
+}
+.formulaire button{
+    background: white;
+    padding: 15px 35px;
+    color: #1680AC;
+    font-size: 1.1em;
+    font-weight: 500;
+    margin-top: 10px;
+    text-decoration: none;
+    border-radius: 4px;
+    border: none;
+}.formulaire button:hover{
+    color: #222;
+    background: #7063b9;
+    box-shadow: 2px 2px 7px 7px mediumpurple;
+}
 
 
 
