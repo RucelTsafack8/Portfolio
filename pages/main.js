@@ -63,3 +63,27 @@ function readMore() {
         moreText.style.display = "none";
     }
 }
+
+
+
+let User = document.getElementById('username');
+let Email = document.getElementById('email');
+let Message = document.getElementById('message');
+
+const btn = document.getElementById('btn-send');
+btn.addEventListener("click", (e)=>{
+    e.preventDefault();
+    let user_name = User.value;
+    let user_email = Email.value;
+    let user_message = Message.value;
+
+
+    let regex = new RegExp('[a-z0-9]+@[a-z]+\.[a-z]{2,3}');
+    console.log(regex.test(user_email))
+
+    if(user_name=="" || regex.test(user_email)==false || user_message==""){
+        alert("verifier tous vos informations");
+    }else{
+        alert("vous informations ont ete biens recu !!!");
+    }
+})

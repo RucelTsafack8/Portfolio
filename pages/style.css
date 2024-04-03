@@ -389,7 +389,7 @@ header .menu-btn{
     color: green;
 }
 .projet1 a:hover{
-    content: "le lien du projet ";
+    content: "le lien du projet";
     color: #7063b9;
 }
 .formulaire{
@@ -416,11 +416,12 @@ header .menu-btn{
     height: 50px;
     text-align: center;
     color: rgb(0, 0, 15);
-    background: darkslategrey;
+    background-color: #333;
+    box-shadow: 2px 2px 7px 8px mediumslateblue;
     border: transparent;
     border-radius: 10px;
     font-size: 20px;
-    box-shadow: 2px 2px 8px 9px rgb(42, 67, 65);
+    
     margin: 20px;
     padding: 10px;
     margin-top: 30px;
@@ -431,20 +432,27 @@ header .menu-btn{
     font-size: 22px;
     background-color: #333;
 }
+
+.forms input:hover, .forms textarea:hover{
+    background: rgb(237, 245, 245);
+    box-shadow: 2px 2px 8px 9px rgb(42, 67, 65);
+}
 .formulaire button{
     background: white;
     padding: 15px 35px;
     color: #1680AC;
-    font-size: 1.1em;
+    font-size: 1.6em;
     font-weight: 500;
     margin-top: 10px;
     text-decoration: none;
     border-radius: 4px;
     border: none;
+    box-shadow: 2px 2px 5px 5px whitesmoke;
 }.formulaire button:hover{
     color: #222;
-    background: #7063b9;
-    box-shadow: 2px 2px 7px 7px mediumpurple;
+    font-size: 28px;
+    background: mediumorchid;
+    box-shadow: 2px 2px 7px 7px mediumorchid;
 }
 
 
