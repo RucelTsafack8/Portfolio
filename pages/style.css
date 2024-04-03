@@ -33,9 +33,10 @@ header .navigation{
 
 header .navigation .navigation-item a{
     position: relative;
-    color: mediumorchid;
+    color: rgb(182, 189, 91);
     font-size: 1em;
     font-weight: 600;
+    font-size: 20px;
     text-decoration: none;
     margin-left: 30px;
     transition: 0.5s ease;
@@ -44,7 +45,7 @@ header .navigation .navigation-item a{
 header .navigation .navigation-item a:before{
     content: '';
     position: absolute;
-    background: #333;
+    background: #4bed06;
     height: 3px;
     width: 100%;
     bottom: 0;
@@ -52,7 +53,9 @@ header .navigation .navigation-item a:before{
     transition: 0.3s ease;
 }
 header .navigation .navigation-item a:hover{
-    color: mediumorchid;
+    color: black;
+    box-shadow: 2px 2px 8px 8px mediumspringgreen;
+    background: mediumspringgreen;
 
 }
 header .navigation .navigation-item a:hover:before{
@@ -121,6 +124,11 @@ section{
     color: mediumturquoise;
 
 }
+.home .content h1 span:hover{
+    color: black;
+    box-shadow: 2px 2px 8px 8px mediumspringgreen;
+    background: mediumspringgreen;
+}
 .home .content p{
     margin-bottom: 65px;
     line-height: 35px;
@@ -140,6 +148,11 @@ section{
     border-radius: 4px;
     border: none;
 
+}
+.home .content a:hover, .about-main button:hover{
+    color: black;
+    box-shadow: 2px 2px 8px 8px mediumspringgreen;
+    background: mediumspringgreen;
 }
 
 .home .media-icons{
@@ -259,8 +272,8 @@ header .menu-btn{
 }
 
 .heading p{
-    font-size: 18px;
-    color: mediumseagreen;
+    font-size: 22px;
+    color: rgb(245, 247, 246);
     margin-top: 15px;
     letter-spacing: 5px;
     text-transform: capitalize;
@@ -310,8 +323,12 @@ header .menu-btn{
     color: antiquewhite;
 
 }
+.more h1{
+    color: #4bed06;
+    text-transform: inherit;
+}
 .more p{
-    color: #222;
+    color: mediumturquoise;
     font: 400;
     font-size: 18px;
     letter-spacing: 4px;
