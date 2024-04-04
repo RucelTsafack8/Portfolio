@@ -132,9 +132,10 @@ section{
 .home .content p{
     margin-bottom: 65px;
     line-height: 35px;
-    color: rgb(238, 227, 7);
+    color: rgba(181, 212, 25, 0.877);
     font-size: 20px;
     letter-spacing: 5px;
+    font-weight: 900;
 }
 
 .home .content a, .about-main button{
@@ -241,7 +242,7 @@ header .menu-btn{
     background-size: cover; 
 }
 
-.heading, .formulaire{
+.heading, .formulaire, .fonction{
     width: 90%;
     display: flex;
     flex-direction: column;
@@ -252,7 +253,7 @@ header .menu-btn{
     margin-top: 80px;
 }
 
-.heading h1, .formulaire h1{
+.heading h1, .formulaire h1, .fonction h1{
     font-size: 50px;
     color: mediumvioletred;
     margin-top: 65px;
@@ -260,7 +261,7 @@ header .menu-btn{
     position: relative;
 
 }
-.heading h1::after, .formulaire h1::after{
+.heading h1::after, .formulaire h1::after, .fonction h1::after{
     content: "";
     position: absolute;
     width: 100%;
@@ -438,7 +439,7 @@ header .menu-btn{
     box-shadow: 2px 2px 8px 9px rgb(42, 67, 65);
 }
 .formulaire button{
-    background: white;
+    
     padding: 15px 35px;
     color: #1680AC;
     font-size: 1.6em;
@@ -446,16 +447,79 @@ header .menu-btn{
     margin-top: 10px;
     text-decoration: none;
     border-radius: 4px;
+    background: mediumorchid;
+    box-shadow: 2px 2px 7px 7px mediumorchid;
     border: none;
-    box-shadow: 2px 2px 5px 5px whitesmoke;
+    
 }.formulaire button:hover{
     color: #222;
     font-size: 28px;
-    background: mediumorchid;
-    box-shadow: 2px 2px 7px 7px mediumorchid;
+    background: white;
+    box-shadow: 2px 2px 5px 5px whitesmoke;
 }
 
+.service{
+    /* background: #fff; */
+    bottom: 0;
+    margin-top: 12px;
+    width: 100%;
+    height: auto;
+}
+.service1{
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: 20px auto;
 
+}
+.service1 h1, .service1 h4{
+    width: 600px;
+    font-weight: 900;
+    color: mediumorchid;
+    text-transform: uppercase;
+    size: 20px;
+    font-weight: 400;
+    margin-top: 15px;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+.service1 h1::after{
+    content: "";
+    position: absolute;
+    height: 4px;
+    display: block;
+    margin: 0 auto;
+    background-color: #8cac16;
+    transition: 0.3s ease;
+}
+.service1 p{
+    display: flex;
+    color: #C0C0C0;
+
+    width: 75%; 
+    text-align: center;
+    font-weight: 700;
+    justify-content: center;
+    align-items: center;
+    line-height: 40px;
+    letter-spacing: 5px;
+    
+}
+.service1 p{
+    transition: 1s ease;
+}
+.service1 ul li{
+    list-style: none;
+    line-height: 35px;
+    color: #c5f612;
+    letter-spacing: 8px;
+    
+}
 
 
 
